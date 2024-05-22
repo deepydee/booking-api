@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Booking\Auth\Database\Seeders;
 
 use Booking\Auth\Models\User;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class AdminUserSeeder extends Seeder
