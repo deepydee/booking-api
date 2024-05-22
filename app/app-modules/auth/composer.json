@@ -1,0 +1,24 @@
+{
+    "name": "booking/auth",
+    "description": "",
+    "type": "library",
+    "version": "1.0",
+    "license": "proprietary",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Booking\\Auth\\": "src/",
+            "Booking\\Auth\\Tests\\": "tests/",
+            "Booking\\Auth\\Database\\Factories\\": "database/factories/",
+            "Booking\\Auth\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Booking\\Auth\\Providers\\AuthServiceProvider"
+            ]
+        }
+    }
+}

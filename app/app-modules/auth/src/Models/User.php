@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace Booking\Auth\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
